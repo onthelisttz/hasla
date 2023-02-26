@@ -260,7 +260,7 @@ const time = useCountdown(deadline);
             <a href="#faq" className="cursor-pointer hope text-lg  px-2 mr-3 rounded-md">
     <span className=" relative group ">
 <span className="">FAQ's</span>
-{/* git commit -m "26/02/2023 3" */}
+{/* git commit -m "26/02/2023 4" */}
   <span className="absolute -bottom-1 left-0 w-0 h-[0.2em] bg-[#339966] transition-all group-hover:w-[2.7em]"></span>
 </span>
 
@@ -318,14 +318,8 @@ const time = useCountdown(deadline);
 
 
     <div className="w-full md:w-10/12 px-4 mr-4 ml-4">
-        <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-gray-900">
-          <i className=" text-xl text-[#339966]">
-            <MdEmojiNature  size={30}/>
-          </i>
-        </div>
-        <h3 className="text-3xl mb-2 font-semibold leading-normal text-white">
-        Our story
-        </h3>
+      
+      
         <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-white">
         Welcome to the Hasla Community! Online Money-Focused Community.
         </p>
@@ -371,7 +365,9 @@ So what are you waiting for? Sign up for our online courses today and start your
             Don't miss out on the chance to enroll in Hasla Community and experience the future of learning. Secure your spot today at the discounted rate of TSH 35,000 per month, before it increases to TSH 50,000 per month.
          
             </p>
-         
+            <button onClick={()=>router.push("/Membership")}
+          className="bg-green-400  rounded-md mt-5 py-3 px-5  text-2xl font-serif ">
+           SECURE YOUR SPOT TODAY</button>
 
          
         
