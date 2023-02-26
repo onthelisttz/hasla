@@ -274,9 +274,45 @@ const time = useCountdown(deadline);
   
  
     <div id ="aboutus" className="grid grid-cols-1  md:grid-cols-2 ml-6 mt-2 w-full mb-20 ">
-    <div  className=' relative m-2  h-[38em] w-full'>
+    <div>
+    <div  className=' relative m-2  h-[30em] w-full'>
     <Image className="rounded-lg hover:scale-105 transform transtion duration-700" src="/hom2.jpg"  alt=" Logo" layout='fill' objectFit='cover' />
     
+    </div>
+    <div className="max-w-3xl mx-auto text-center md:pb-20 mt-4">
+            <h2 className="h2 mb-4 font-serif text-5xl">Price Increase Soon...</h2>
+            <p className="text-2xl text-gray-500">join today!</p>
+            <p className="text-xl text-gray-400">TSH 35,000 monthly (Limited time offer – Usually 50,000) 
+</p>
+         
+         <div className="flex justify-center font-mono mt-6 gap-x-6 text-center">
+          <div>
+            <span>Days</span><br/>
+         
+            <span className="text-7xl">{time.days}</span>
+            
+          </div>
+
+          <div>
+            <span>Hours</span><br/>
+            <span className="text-7xl">{time.hours}</span>
+          </div>
+          <div>
+            <span>Minutes</span><br/>
+            <span className="text-7xl">{time.minutes}</span>
+          </div>
+
+          <div>
+            <span>Seconds</span><br/>
+            <span className="text-7xl">{time.seconds}</span>
+          </div>
+
+         </div>
+         
+         <button onClick={()=>router.push("/Membership")}
+          className="bg-green-700 animate-pulse rounded-xl mt-5 py-2 px-4 hover:animate-none text-3xl font-serif ">
+           JOIN HASLA COMMUNITY TODAY</button>
+          </div>
     </div>
 
 
@@ -291,36 +327,69 @@ const time = useCountdown(deadline);
         Our story
         </h3>
         <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-blueGray-600">
-          Don't let your uses guess by attaching tooltips and popoves to
-          any element. Just make sure you enable them first via
-          JavaScript.
+        Welcome to the Hasla Community! Online Money-Focused Community.
         </p>
         <p className="text-lg font-light leading-relaxed mt-0 mb-4 text-blueGray-600">
-          The kit comes with three pre-built pages to help you get started
-          faster. You can change the text and images and you're good to
-          go. Just make sure you enable them first via JavaScript.
+       
+
+Are you tired of working long hours at a job that barely pays the bills? Do you dream of being your own boss and earning a six-figure income from the comfort of your own home? If so, you're in the right place.
+
+
+
+  
+       
         </p>
-        <a href="../index.html" className="font-bold text-blueGray-700 mt-8">Awareness!</a>
-        <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-blueGray-600">
-          Don't let your uses guess by attaching tooltips and popoves to
-          any element. Just make sure you enable them first via
-          JavaScript.
+        <p className="text-lg font-light leading-relaxed mt-0 mb-4 text-blueGray-600">
+        Our online courses are designed to help you learn the skills you need to start your own profitable online business. Whether you're a complete beginner or an experienced entrepreneur, we have something for everyone.
+
+
         </p>
+        <p className="text-lg font-light leading-relaxed mt-0 mb-4 text-blueGray-600">
+        Our courses cover everything from freelancing and digital marketing to e-commerce and affiliate marketing. You'll learn how to build a website, drive traffic to your site, and convert visitors into paying customers. You'll also learn how to create a brand, build an email list, and use social media to grow your business.
+
+
+        </p>
+        <p className="text-lg font-light leading-relaxed mt-0 mb-4 text-blueGray-600">
+        Our team of expert instructors has years of experience in the online business world, and they're here to guide you every step of the way. You'll have access to one-on-one coaching, live webinars, and a supportive community of like-minded individuals who are all working towards the same goal: financial freedom.
+
+        </p>
+        <p className="text-lg font-light leading-relaxed mt-0 mb-4 text-blueGray-600">
+      
+So what are you waiting for? Sign up for our online courses today and start your journey to financial independence. With our step-by-step guidance and proven strategies, you'll be well on your way to building the online business of your dreams.
+     
+        </p>
+       
       </div>
       </div>
 
+      <div className="max-w-6xl mx-auto px-4  md:pt-9 sm:px-6">
+      <div className="max-w-3xl mx-auto text-center md:pb-20">
+            <h2 className="h2 mb-4 font-serif text-4xl">LIMITED SPOTS AVAILABLE FOR HASLAZ!</h2>
+            <p className="text-xl text-gray-400">
+            Hurry and be one of the first to join us! Lock in your membership fee at just TSH 35,000 per month before the limited spots are gone and the price increases. 
+            
+            Don't miss out on the chance to enroll in Hasla Community and experience the future of learning. Secure your spot today at the discounted rate of TSH 35,000 per month, before it increases to TSH 50,000 per month.
+         
+            </p>
+         
+
+         
+        
+        
+          </div>
+      </div>
 
 
 
 
 
   
-<div className="max-w-6xl mx-auto px-4 py-12 md:py-20 sm:px-6">
+{/* <div className="max-w-6xl mx-auto px-4 py-12 md:py-20 sm:px-6">
       <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
             <h2 className="h2 mb-4 font-serif text-4xl">Make your choice today</h2>
             <p className="text-xl text-gray-400">Vitae aliquet nec ullamcorper sit ad jyju in herewre yonue aniouni amet risus nullam eget felis semper quis lectus nulla at volutpat diam ut venenatis tellus—in ornare.</p>
           </div>
-      </div>
+      </div> */}
       <section id ="servise">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="py-12 md:py-20 border-t border-gray-800">
@@ -658,39 +727,7 @@ const time = useCountdown(deadline);
 </section>
         </motion.div>
 
-        <div className="max-w-6xl mx-auto px-4  md:pt-9 sm:px-6">
-      <div className="max-w-3xl mx-auto text-center md:pb-20">
-            <h2 className="h2 mb-4 font-serif text-4xl">LIMITED SPOTS AVAILABLE</h2>
-            <p className="text-xl text-gray-400">Vitae aliquet nec ullamcorper sit ad jyju in herewre yonue aniouni amet risus nullam eget felis semper quis lectus nulla at volutpat diam ut venenatis tellus—in ornare.</p>
-         
-         <div className="flex justify-center font-mono mt-6 gap-x-6 text-center">
-          <div>
-            <span>Days</span><br/>
-         
-            <span className="text-7xl">{time.days}</span>
-            
-          </div>
-
-          <div>
-            <span>Hours</span><br/>
-            <span className="text-7xl">{time.hours}</span>
-          </div>
-          <div>
-            <span>Minutes</span><br/>
-            <span className="text-7xl">{time.minutes}</span>
-          </div>
-
-          <div>
-            <span>Seconds</span><br/>
-            <span className="text-7xl">{time.seconds}</span>
-          </div>
-
-         </div>
-         
-         <button onClick={()=>router.push("/Membership")} className="bg-green-700 animate-pulse rounded-xl mt-5 py-2 px-4 hover:animate-none text-3xl font-serif ">Book your sit</button>
-          </div>
-      </div>
-
+    
         <div id ="servisee" className='background-color:rgb(255, 255, 255) mt-12'>
 <div className="relative px-4 mx-auto max-w-7xl sm:px-6 lg:px-8" >
   <div className="max-w-lg mx-auto overflow-hidden rounded-lg shadow-lg lg:max-w-none lg:flex">
