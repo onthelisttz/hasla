@@ -16,7 +16,7 @@ import { motion, useScroll,
 
 import { Accordion, Navbar } from "flowbite-react";
 
-import { MdDiscFull, MdDoDisturb, MdEmojiNature, MdKeyboardArrowUp, MdMenu } from "react-icons/md";
+import { MdBrightnessAuto, MdDiscFull, MdDoDisturb, MdEmojiNature, MdKeyboardArrowUp, MdMenu, MdModelTraining, MdOutlineDashboard, MdOutlineDataExploration, MdOutlineRealEstateAgent, MdSettings, MdVpnLock } from "react-icons/md";
 const useCountdown = (deadline) => {
   // Time is in seconds
   const [time, setTime] = useState(
@@ -188,7 +188,7 @@ const time = useCountdown(deadline);
        <p className='font-bold text-3xl'>HASLA</p>
         </div> */}
        <div  className=' hidden md:inline relative cursor-pointer  h-[50px] w-[80px]'>
-<Image src="/hasla1.jpeg"  alt=" Logo" layout='fill' objectFit='cover' />
+<Image src="/hasla5.png"  alt=" Logo" layout='fill' objectFit='cover' />
 
 </div>
        <div className=" md:hidden">
@@ -260,7 +260,7 @@ const time = useCountdown(deadline);
             <a href="#faq" className="cursor-pointer hope text-lg  px-2 mr-3 rounded-md">
     <span className=" relative group ">
 <span className="">FAQ's</span>
-{/* git commit -m "26/02/2023 4" */}
+{/* git commit -m "26/02/2023 5" */}
   <span className="absolute -bottom-1 left-0 w-0 h-[0.2em] bg-[#339966] transition-all group-hover:w-[2.7em]"></span>
 </span>
 
@@ -367,7 +367,7 @@ So what are you waiting for? Sign up for our online courses today and start your
             </p>
             <button onClick={()=>router.push("/Membership")}
           className="bg-green-400  rounded-md mt-5 py-3 px-5  text-2xl font-serif ">
-           SECURE YOUR SPOT TODAY</button>
+          JOIN THE RANKS OF SUCCESSFUL HASLAZ</button>
 
          
         
@@ -386,170 +386,100 @@ So what are you waiting for? Sign up for our online courses today and start your
             <p className="text-xl text-gray-400">Vitae aliquet nec ullamcorper sit ad jyju in herewre yonue aniouni amet risus nullam eget felis semper quis lectus nulla at volutpat diam ut venenatis tellus—in ornare.</p>
           </div>
       </div> */}
+
       <section id ="servise">
-      <div className="max-w-6xl mx-auto px-4 sm:px-6">
-        <div className="py-12 md:py-20 border-t border-gray-800">
-
-          {/* Section header */}
-          <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-            <div className="inline-flex text-sm font-semibold py-1 px-3 m-2 text-green-600 bg-green-200 rounded-full mb-4">start living your own life</div>
-            <h1 className="h1 text-4xl font-serif mb-4 text-white">LIVE UNSCRIPTED FROM TODAY</h1>
-            <p className="text-xl text-gray-400">some of the skills your going to learn. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit laborum — semper quis lectus nulla.</p>
+      <div className="max-w-6xl mx-auto px-4 py-12 md:py-20 sm:px-6">
+<div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
+            <h2 className="h2 mb-4 font-serif text-4xl">CAMPUS</h2>
+            <p className="text-xl text-gray-400">
+            THE HASLA COMMUNITY CAMPUSES
+              </p>
           </div>
 
-          {/* Items */}
-          <div className="grid gap-20">
+          <div className="max-w-sm mx-auto grid gap-8 md:grid-cols-2 lg:grid-cols-3 lg:gap-6 items-start md:max-w-none">
 
-            {/* 1st item */}
-            <div className="md:grid md:grid-cols-12 md:gap-6 items-center hover:bg-gray-900 p-4 rounded-lg hover:scale-105 transform transtion duration-700">
-              {/* Image */}
-              <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 md:order-1" data-aos="fade-up">
-                <img className="max-w-full mx-auto md:max-w-none h-auto rounded-xl" src="/hom2.jpg" width="540" height="405" alt="Features 03" />
-              </div>
-              {/* Content */}
-              <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6" data-aos="fade-right">
-                <div className="md:pr-4 lg:pr-12 xl:pr-16">
-                  <div className="font-architects-daughter text-xl text-[#339966] mb-2">Copyrights</div>
-                  <h3 className="h3 mb-3">start closing badly</h3>
-                  <p className="text-xl text-gray-400 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                  <ul className="text-lg text-gray-400 -mb-2">
-                    <li className="flex items-center mb-2">
-                      <svg className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
-                      </svg>
-                      <span>Duis aute irure dolor in reprehenderit</span>
-                    </li>
-                    <li className="flex items-center mb-2">
-                      <svg className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
-                      </svg>
-                      <span>Excepteur sint occaecat</span>
-                    </li>
-                    <li className="flex items-center">
-                      <svg className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
-                      </svg>
-                      <span>Amet consectetur adipiscing elit</span>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
+{/* 1st testimonial */}
+<div className="flex flex-col h-[15em] justify-center p-6 bg-gray-800 rounded-md hover:scale-105 transform transtion duration-700" data-aos="fade-up">
+<div className="flex flex-col justify-center">
+  
+  <div className="flex  justify-center">
+  <MdOutlineDataExploration size={60} className="text-green-500"/>
+  </div>
+  
+<div className="flex  justify-center">
+<p className="font-serif">Forex </p>
+</div>
+</div>
+  </div>
 
-            {/* 2nd item */}
-            <div className="md:grid md:grid-cols-12 md:gap-6 items-center hover:bg-gray-900 p-4 rounded-lg hover:scale-105 transform transtion duration-700">
-              {/* Image */}
-              <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 rtl" data-aos="fade-up">
-                <img className="max-w-full mx-auto md:max-w-none h-auto rounded-xl" src="/hom2.jpg" width="540" height="405" alt="Features 02" />
-              </div>
-              {/* Content */}
-              <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6" data-aos="fade-left">
-                <div className="md:pl-4 lg:pl-12 xl:pl-16">
-                  <div className="font-architects-daughter text-xl text-[#339966] mb-2">Forex and 
-                  cryptocurrency
-                  </div>
-                  <h3 className="h3 mb-3">Keep projects on schedule</h3>
-                  <p className="text-xl text-gray-400 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                  <ul className="text-lg text-gray-400 -mb-2">
-                    <li className="flex items-center mb-2">
-                      <svg className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
-                      </svg>
-                      <span>Duis aute irure dolor in reprehenderit</span>
-                    </li>
-                    <li className="flex items-center mb-2">
-                      <svg className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
-                      </svg>
-                      <span>Excepteur sint occaecat</span>
-                    </li>
-                    <li className="flex items-center">
-                      <svg className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
-                      </svg>
-                      <span>Amet consectetur adipiscing elit</span>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
+  <div className="flex flex-col h-[15em] justify-center p-6 bg-gray-800 rounded-md hover:scale-105 transform transtion duration-700 hover:scale-105 transform transtion duration-700" data-aos="fade-up">
+<div className="flex flex-col justify-center">
+  
+  <div className="flex  justify-center">
+  <MdBrightnessAuto size={60} className="text-green-500"/>
+  </div>
+  
+<div className="flex  justify-center">
+<p className="font-serif">Affiliate Marketing </p>
+</div>
+</div>
+  </div>
 
-            {/* 3rd item */}
-            <div className="md:grid md:grid-cols-12 md:gap-6 items-center hover:bg-gray-900 p-4 rounded-lg hover:scale-105 transform transtion duration-700">
-              {/* Image */}
-              <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 md:order-1" data-aos="fade-up">
-                <img className="max-w-full mx-auto md:max-w-none h-auto rounded-xl" src="/hom2.jpg" width="540" height="405" alt="Features 03" />
-              </div>
-              {/* Content */}
-              <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6" data-aos="fade-right">
-                <div className="md:pr-4 lg:pr-12 xl:pr-16">
-                  <div className="font-architects-daughter text-xl text-[#339966] mb-2">Frelancers</div>
-                  <h3 className="h3 mb-3">Keep projects on schedule</h3>
-                  <p className="text-xl text-gray-400 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                  <ul className="text-lg text-gray-400 -mb-2">
-                    <li className="flex items-center mb-2">
-                      <svg className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
-                      </svg>
-                      <span>Duis aute irure dolor in reprehenderit</span>
-                    </li>
-                    <li className="flex items-center mb-2">
-                      <svg className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
-                      </svg>
-                      <span>Excepteur sint occaecat</span>
-                    </li>
-                    <li className="flex items-center">
-                      <svg className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
-                      </svg>
-                      <span>Amet consectetur adipiscing elit</span>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div className="md:grid md:grid-cols-12 md:gap-6 items-center hover:bg-gray-900 p-4 rounded-lg hover:scale-105 transform transtion duration-700">
-              {/* Image */}
-              <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 rtl" data-aos="fade-up">
-                <img className="max-w-full mx-auto md:max-w-none h-auto rounded-xl" src="/hom2.jpg" width="540" height="405" alt="Features 02" />
-              </div>
-              {/* Content */}
-              <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6" data-aos="fade-left">
-                <div className="md:pl-4 lg:pl-12 xl:pl-16">
-                  <div className="font-architects-daughter text-xl text-[#339966] mb-2"> 
-                  Investments
-                  </div>
-                  <h3 className="h3 mb-3">Keep projects on schedule</h3>
-                  <p className="text-xl text-gray-400 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                  <ul className="text-lg text-gray-400 -mb-2">
-                    <li className="flex items-center mb-2">
-                      <svg className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
-                      </svg>
-                      <span>Duis aute irure dolor in reprehenderit</span>
-                    </li>
-                    <li className="flex items-center mb-2">
-                      <svg className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
-                      </svg>
-                      <span>Excepteur sint occaecat</span>
-                    </li>
-                    <li className="flex items-center">
-                      <svg className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
-                      </svg>
-                      <span>Amet consectetur adipiscing elit</span>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
+  <div className="flex flex-col h-[15em] justify-center p-6 bg-gray-800 rounded-md hover:scale-105 transform transtion duration-700" data-aos="fade-up">
+<div className="flex flex-col justify-center">
+  
+  <div className="flex  justify-center">
+  <MdVpnLock size={60} className="text-green-500"/>
+  </div>
+  
+<div className="flex  justify-center">
+<p className="font-serif">Freelancing & Copy </p>
+</div>
+</div>
+  </div>
+  <div className="flex flex-col h-[15em] justify-center p-6 bg-gray-800 rounded-md hover:scale-105 transform transtion duration-700" data-aos="fade-up">
+<div className="flex flex-col justify-center">
+  
+  <div className="flex  justify-center">
+  <MdOutlineDashboard size={60} className="text-green-500"/>
+  </div>
+  
+<div className="flex  justify-center">
+<p className="font-serif">Fundamentals </p>
+</div>
+</div>
+  </div>
 
-        </div>
-      </div>
-    </section>
+  <div className="flex flex-col h-[15em] justify-center p-6 bg-gray-800 rounded-md hover:scale-105 transform transtion duration-700" data-aos="fade-up">
+<div className="flex flex-col justify-center">
+  
+  <div className="flex  justify-center">
+  <MdOutlineRealEstateAgent size={60} className="text-green-500"/>
+  </div>
+  
+<div className="flex  justify-center">
+<p className="font-serif">Investing & Real Estate</p>
+</div>
+</div>
+  </div>
+
+  <div className="flex flex-col h-[15em] justify-center p-6 bg-gray-800 rounded-md hover:scale-105 transform transtion duration-700" data-aos="fade-up">
+<div className="flex flex-col justify-center">
+  
+  <div className="flex  justify-center">
+  <MdModelTraining size={60} className="text-green-500"/>
+  </div>
+  
+<div className="flex  justify-center">
+<p className="font-serif">Finance & Business </p>
+</div>
+</div>
+  </div>
+    </div>
+
+</div>
+      </section>
+    
     <div className="max-w-6xl mx-auto px-4 py-12 md:py-20 sm:px-6">
       <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
             <h2 className="h2 mb-4 font-serif text-4xl">7-8h working per day is not the right path</h2>
