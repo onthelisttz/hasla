@@ -3,9 +3,9 @@ import Image from 'next/image'
 import '../../src/app/globals.css'
 import { useEffect,useRef, useState } from "react";
 import styles from './page.module.css'
-import CustomCursor from 'custom-cursor-react';
+// import CustomCursor from 'custom-cursor-react';
 import { useInView } from "react-intersection-observer";
-import 'custom-cursor-react/dist/index.css';
+// import 'custom-cursor-react/dist/index.css';
 import { useRouter } from "next/navigation";
 import Countdown from 'react-countdown';
 import Header from '../components/Header'
@@ -164,23 +164,7 @@ const time = useCountdown(deadline);
 
   return (
     <div className="cursor-nones">
-       {/* <CustomCursor
-      targets={['.link', '.your-css-selector', '.hope', ]}
-      customclassName='cursor-none'
-      dimensions={35}
-      opacity={0.5}
-      scale={2}
-      
-      fill='#339966'
-      strokeColor='#8cd9b3'
-      strokeWidth={13}
-      smoothness={{
-        movement: 0.2,
-        scale: 0.1,
-        opacity: 0.2,
-      }}
-      targetOpacity={0.5}
-    /> */}
+
    
 
 
@@ -273,7 +257,7 @@ const time = useCountdown(deadline);
             <a href="#faq" className="cursor-pointer hope text-lg  px-2 mr-3 rounded-md">
     <span className=" relative group ">
 <span className="">FAQ's</span>
-
+{/* git commit -m "my first commit" */}
   <span className="absolute -bottom-1 left-0 w-0 h-[0.2em] bg-[#339966] transition-all group-hover:w-[2.7em]"></span>
 </span>
 
