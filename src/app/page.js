@@ -163,7 +163,7 @@ const [deadline] = useState(new Date(Date.now() + numHours * hour));
 const time = useCountdown(deadline);
 
   return (
-    <div className="bg-neutral-900">
+    <div className="bg-neutral-900 text-white">
 
    
 
@@ -260,7 +260,7 @@ const time = useCountdown(deadline);
             <a href="#faq" className="cursor-pointer hope text-lg  px-2 mr-3 rounded-md">
     <span className=" relative group ">
 <span className="">FAQ's</span>
-{/* git commit -m "my first commit" */}
+{/* git commit -m "26/02/2023 3" */}
   <span className="absolute -bottom-1 left-0 w-0 h-[0.2em] bg-[#339966] transition-all group-hover:w-[2.7em]"></span>
 </span>
 
@@ -279,7 +279,7 @@ const time = useCountdown(deadline);
     <Image className="rounded-lg hover:scale-105 transform transtion duration-700" src="/hom2.jpg"  alt=" Logo" layout='fill' objectFit='cover' />
     
     </div>
-    <div className="max-w-3xl mx-auto text-center md:pb-20 mt-4">
+    <div className="max-w-3xl mx-auto text-center md:pb-20 mt-4 text-white">
             <h2 className="h2 mb-4 font-serif text-5xl">Price Increase Soon...</h2>
             <p className="text-2xl text-gray-500">join today!</p>
             <p className="text-xl text-gray-400">TSH 35,000 monthly (Limited time offer – Usually 50,000) 
@@ -323,13 +323,13 @@ const time = useCountdown(deadline);
             <MdEmojiNature  size={30}/>
           </i>
         </div>
-        <h3 className="text-3xl mb-2 font-semibold leading-normal">
+        <h3 className="text-3xl mb-2 font-semibold leading-normal text-white">
         Our story
         </h3>
-        <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-blueGray-600">
+        <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-white">
         Welcome to the Hasla Community! Online Money-Focused Community.
         </p>
-        <p className="text-lg font-light leading-relaxed mt-0 mb-4 text-blueGray-600">
+        <p className="text-lg font-light leading-relaxed mt-0 mb-4 text-white">
        
 
 Are you tired of working long hours at a job that barely pays the bills? Do you dream of being your own boss and earning a six-figure income from the comfort of your own home? If so, you're in the right place.
@@ -339,21 +339,21 @@ Are you tired of working long hours at a job that barely pays the bills? Do you 
   
        
         </p>
-        <p className="text-lg font-light leading-relaxed mt-0 mb-4 text-blueGray-600">
+        <p className="text-lg font-light leading-relaxed mt-0 mb-4 text-white">
         Our online courses are designed to help you learn the skills you need to start your own profitable online business. Whether you're a complete beginner or an experienced entrepreneur, we have something for everyone.
 
 
         </p>
-        <p className="text-lg font-light leading-relaxed mt-0 mb-4 text-blueGray-600">
+        <p className="text-lg font-light leading-relaxed mt-0 mb-4 text-white">
         Our courses cover everything from freelancing and digital marketing to e-commerce and affiliate marketing. You'll learn how to build a website, drive traffic to your site, and convert visitors into paying customers. You'll also learn how to create a brand, build an email list, and use social media to grow your business.
 
 
         </p>
-        <p className="text-lg font-light leading-relaxed mt-0 mb-4 text-blueGray-600">
+        <p className="text-lg font-light leading-relaxed mt-0 mb-4 text-white">
         Our team of expert instructors has years of experience in the online business world, and they're here to guide you every step of the way. You'll have access to one-on-one coaching, live webinars, and a supportive community of like-minded individuals who are all working towards the same goal: financial freedom.
 
         </p>
-        <p className="text-lg font-light leading-relaxed mt-0 mb-4 text-blueGray-600">
+        <p className="text-lg font-light leading-relaxed mt-0 mb-4 text-white">
       
 So what are you waiting for? Sign up for our online courses today and start your journey to financial independence. With our step-by-step guidance and proven strategies, you'll be well on your way to building the online business of your dreams.
      
@@ -397,7 +397,7 @@ So what are you waiting for? Sign up for our online courses today and start your
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
             <div className="inline-flex text-sm font-semibold py-1 px-3 m-2 text-green-600 bg-green-200 rounded-full mb-4">start living your own life</div>
-            <h1 className="h1 text-4xl font-serif mb-4 ">LIVE UNSCRIPTED FROM TODAY</h1>
+            <h1 className="h1 text-4xl font-serif mb-4 text-white">LIVE UNSCRIPTED FROM TODAY</h1>
             <p className="text-xl text-gray-400">some of the skills your going to learn. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit laborum — semper quis lectus nulla.</p>
           </div>
 
@@ -585,12 +585,12 @@ So what are you waiting for? Sign up for our online courses today and start your
        <h3 className="text-3xl mb-2 font-semibold leading-normal">
       Escape the rat race
        </h3>
-       <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-blueGray-600">
+       <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-white">
          Don't let your uses guess by attaching tooltips and popoves to
          any element. Just make sure you enable them first via
          JavaScript.
        </p>
-       <p className="text-lg font-light leading-relaxed mt-0 mb-4 text-blueGray-600">
+       <p className="text-lg font-light leading-relaxed mt-0 mb-4 text-white">
          The kit comes with three pre-built pages to help you get started
          faster. You can change the text and images and you're good to
          go. Just make sure you enable them first via JavaScript.
