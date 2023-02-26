@@ -260,7 +260,7 @@ const time = useCountdown(deadline);
             <a href="#faq" className="cursor-pointer hope text-lg  px-2 mr-3 rounded-md">
     <span className=" relative group ">
 <span className="">FAQ's</span>
-{/* git commit -m "26/02/2023 6" */}
+{/* git commit -m "26/02/2023 7" */}
   <span className="absolute -bottom-1 left-0 w-0 h-[0.2em] bg-[#339966] transition-all group-hover:w-[2.7em]"></span>
 </span>
 
@@ -487,7 +487,18 @@ So what are you waiting for? Sign up for our online courses today and start your
 <div className="flex flex-col justify-center">
   
   <div className="flex  justify-center">
-  <MdOutlineDataExploration size={60} className="text-green-500"/>
+  {/* <MdOutlineDataExploration size={60} className="text-green-500"/> */}
+  <svg
+      viewBox="0 0 24 24"
+      fill="#00e676"
+      // className="text-green-500"
+      height="5em"
+      width="5em"
+   
+    >
+      <path fill="none" d="M0 0h24v24H0z" />
+      <path d="M8 5h3v9H8v3H6v-3H3V5h3V2h2v3zM5 7v5h4V7H5zm13 3h3v9h-3v3h-2v-3h-3v-9h3V7h2v3zm-3 2v5h4v-5h-4z" />
+    </svg>
   </div>
   
 <div className="flex  justify-center">
