@@ -157,13 +157,13 @@ const renderer = ({days, hours, minutes, seconds, completed }) => {
     return <span>{days}-{hours}-{minutes}-{seconds}</span>;
   }
 };
-const hour = 12.6e6; // 1 Hour in milliseconds
-const numHours = 200; // Number of hours in the future
+const hour = 4.6e6; // 1 Hour in milliseconds
+const numHours = 4; // Number of hours in the future
 const [deadline] = useState(new Date(Date.now() + numHours * hour));
 const time = useCountdown(deadline);
 
   return (
-    <div className="cursor-nones">
+    <div className="bg-neutral-900">
 
    
 
@@ -184,10 +184,13 @@ const time = useCountdown(deadline);
           bg-gray-900
         "
       >
-       <div>
+       {/* <div>
        <p className='font-bold text-3xl'>HASLA</p>
-        </div>
-       
+        </div> */}
+       <div  className=' hidden md:inline relative cursor-pointer  h-[50px] w-[80px]'>
+<Image src="/hasla1.jpeg"  alt=" Logo" layout='fill' objectFit='cover' />
+
+</div>
        <div className=" md:hidden">
        <MdMenu size={45}/>
        </div>
