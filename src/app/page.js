@@ -16,7 +16,7 @@ import { motion, useScroll,
 
 import { Accordion, Navbar } from "flowbite-react";
 
-import { MdBrightnessAuto, MdDiscFull, MdDoDisturb, MdEmojiNature, MdKeyboardArrowUp, MdMenu, MdModelTraining, MdOutlineDashboard, MdOutlineDataExploration, MdOutlineRealEstateAgent, MdSettings, MdVpnLock } from "react-icons/md";
+import { MdBrightnessAuto, MdDiscFull, MdDoDisturb, MdEmojiNature, MdKeyboardArrowUp, MdMenu, MdModelTraining, MdOutlineDashboard, MdOutlineDataExploration, MdOutlineRealEstateAgent, MdPlayCircleOutline, MdSettings, MdVpnLock } from "react-icons/md";
 const useCountdown = (deadline) => {
   // Time is in seconds
   const [time, setTime] = useState(
@@ -260,7 +260,7 @@ const time = useCountdown(deadline);
             <a href="#faq" className="cursor-pointer hope text-lg  px-2 mr-3 rounded-md">
     <span className=" relative group ">
 <span className="">FAQ's</span>
-{/* git commit -m "26/02/2023 5" */}
+{/* git commit -m "26/02/2023 6" */}
   <span className="absolute -bottom-1 left-0 w-0 h-[0.2em] bg-[#339966] transition-all group-hover:w-[2.7em]"></span>
 </span>
 
@@ -387,8 +387,9 @@ So what are you waiting for? Sign up for our online courses today and start your
           </div>
       </div> */}
 
+
       <section id ="servise">
-      <div className="max-w-6xl mx-auto px-4 py-12 md:py-20 sm:px-6">
+      <div className="max-w-6xl mx-auto px-4 pb-7 pt-12 md:pt-20 sm:px-6">
 <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
             <h2 className="h2 mb-4 font-serif text-4xl">CAMPUS</h2>
             <p className="text-xl text-gray-400">
@@ -407,7 +408,7 @@ So what are you waiting for? Sign up for our online courses today and start your
   </div>
   
 <div className="flex  justify-center">
-<p className="font-serif">Forex </p>
+<p className="font-serif">cryptocurrency </p>
 </div>
 </div>
   </div>
@@ -433,7 +434,7 @@ So what are you waiting for? Sign up for our online courses today and start your
   </div>
   
 <div className="flex  justify-center">
-<p className="font-serif">Freelancing & Copy </p>
+<p className="font-serif">Freelancing </p>
 </div>
 </div>
   </div>
@@ -445,7 +446,7 @@ So what are you waiting for? Sign up for our online courses today and start your
   </div>
   
 <div className="flex  justify-center">
-<p className="font-serif">Fundamentals </p>
+<p className="font-serif">E-commerce </p>
 </div>
 </div>
   </div>
@@ -458,7 +459,7 @@ So what are you waiting for? Sign up for our online courses today and start your
   </div>
   
 <div className="flex  justify-center">
-<p className="font-serif">Investing & Real Estate</p>
+<p className="font-serif">Real estate</p>
 </div>
 </div>
   </div>
@@ -467,11 +468,11 @@ So what are you waiting for? Sign up for our online courses today and start your
 <div className="flex flex-col justify-center">
   
   <div className="flex  justify-center">
-  <MdModelTraining size={60} className="text-green-500"/>
+  <MdPlayCircleOutline size={60} className="text-green-500"/>
   </div>
   
 <div className="flex  justify-center">
-<p className="font-serif">Finance & Business </p>
+<p className="font-serif">Youtube & Blogging</p>
 </div>
 </div>
   </div>
@@ -480,6 +481,23 @@ So what are you waiting for? Sign up for our online courses today and start your
 </div>
       </section>
     
+      <div className="max-w-6xl mx-auto px-4 flex justify-center sm:px-6">
+<div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
+<div className="flex flex-col h-[20em] w-[22em] justify-center p-6 bg-gray-800 rounded-md hover:scale-105 transform transtion duration-700" data-aos="fade-up">
+<div className="flex flex-col justify-center">
+  
+  <div className="flex  justify-center">
+  <MdOutlineDataExploration size={60} className="text-green-500"/>
+  </div>
+  
+<div className="flex  justify-center">
+<p className="font-serif">STOCKS & BONDS </p>
+</div>
+</div>
+  </div>
+          </div>
+
+</div>
     <div className="max-w-6xl mx-auto px-4 py-12 md:py-20 sm:px-6">
       <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
             <h2 className="h2 mb-4 font-serif text-4xl">7-8h working per day is not the right path</h2>
