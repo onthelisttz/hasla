@@ -260,7 +260,7 @@ const time = useCountdown(deadline);
             <a href="#faq" className="cursor-pointer hope text-lg  px-2 mr-3 rounded-md">
     <span className=" relative group ">
 <span className="">FAQ's</span>
-{/* git commit -m "27/02/2023 4" */}
+{/* git commit -m "27/02/2023 5" */}
   <span className="absolute -bottom-1 left-0 w-0 h-[0.2em] bg-[#339966] transition-all group-hover:w-[2.7em]"></span>
 </span>
 
@@ -838,7 +838,9 @@ So what are you waiting for? Sign up for our online courses today and start your
     
 
 <div id ="faq" className="max-w-7xl mx-auto px-4 my-20 sm:px-6 ">
-<h1 className="text-2xl font-serif  text-white " >Frequent asked questions</h1>
+<div className="text-center">
+<h1 className="text-7xl font-serif  text-white " >FAQ'S</h1>
+</div>
 <Accordion className="mt-4 border border-gray-800 border-3xl">
   <Accordion.Panel  className="border border-sm">
     <Accordion.Title className="hover:bg-gray-800 focus:text-green-500 border border-gray-800 focus:border-lg bg-gray-900 text-white">
@@ -960,7 +962,7 @@ So what are you waiting for? Sign up for our online courses today and start your
   </ul>
 
   {/* Copyrights note */}
-  <div className="text-gray-400 text-sm mr-4">&copy; Hasla.com. 2023 All rights reserved.</div>
+  <div className="text-gray-400 text-sm mr-4">&copy; Gigabyte Africa LTD. 2023 All rights reserved.</div>
 
 </div>
 
