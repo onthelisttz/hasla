@@ -45,7 +45,7 @@ alert('succesfull submitted')
            
 
 //                 <div className="p-8 bg-gray-100 flex flex-col lg:w-full xl:w-3/5">
-//                     <button className="border border-transparent hover:border-gray-300 bg-gray-900 hover:bg-gray-900 text-white hover:text-gray-900 flex flex-row justify-center items-center space-x-2 py-4 rounded w-full">
+//                     <button className="border border-transparent hover:border-gray-300  hover: text-white hover:text-gray-900 flex flex-row justify-center items-center space-x-2 py-4 rounded w-full">
 //                         <div>
 //                             <svg className="fill-current" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
 //                                 <path
@@ -91,7 +91,7 @@ alert('succesfull submitted')
 //                     <label className="mt-8 text-base leading-4 text-gray-800">Country or region</label>
 //                     <div className="mt-2 flex-col">
 //                         <div className="relative">
-//                             <button className="text-left border rounded-tr rounded-tl border-gray-300 p-4 w-full text-base leading-4 placeholder-gray-600 text-gray-600 bg-gray-900" type="email">
+//                             <button className="text-left border rounded-tr rounded-tl border-gray-300 p-4 w-full text-base leading-4 placeholder-gray-600 text-gray-600 " type="email">
 //                                 {country}
 //                             </button>
 //                             <svg onClick={() => setMenu(!menu)} className={"transform  cursor-pointer absolute top-4 right-4 " + (menu ? "rotate-180" : "")} width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -108,7 +108,7 @@ alert('succesfull submitted')
 //                         <input className="border rounded-bl rounded-br border-gray-300 p-4 w-full text-base leading-4 placeholder-gray-600 text-gray-600" type="text" placeholder="ZIP" />
 //                     </div>
 
-//                     <button className="mt-8 border border-transparent hover:border-gray-300 bg-gray-900 hover:bg-gray-900 text-white hover:text-gray-900 flex justify-center items-center py-4 rounded w-full">
+//                     <button className="mt-8 border border-transparent hover:border-gray-300  hover: text-white hover:text-gray-900 flex justify-center items-center py-4 rounded w-full">
 //                         <div>
 //                             <p className="text-base leading-4">Pay $54652</p>
 //                         </div>
@@ -118,7 +118,7 @@ alert('succesfull submitted')
 //         </div>
 //     </div>
 // </div>
-<div className="bg-neutral-900">
+<div className=" w-full h-full">
   
 <section class="max-w-4xl p-6 mx-auto rounded-md shadow-md dark:bg-gray-800 mt-20">
     <h1 class="text-xl font-serif  capitalize dark:">Checkouts</h1>
@@ -127,46 +127,46 @@ alert('succesfull submitted')
             <div>
                 <label class=" dark:text-gray-200" for="firstName">First Name</label>
                 <input {...register('firstName', { required: true,  })} id="firstName" type="text" 
-                class="block w-full px-4 py-2 mt-2 text-gray-700 bg-gray-900 border 
+                class="block w-full px-4 py-2 mt-2 text-gray-700  border 
                 border-gray-300 rounded-md dark:bg-gray-800 dark:text-gray-300 
                 dark:border-gray-600 focus:border-blue-500 dark:focus:border-blue-500 focus:outline-none focus:ring"/>
                 {errors.firstName && <p className='text-xs text-red-500'>first Name is required.</p>}
             </div>
             <div>
                 <label class=" dark:text-gray-200" for="lastName">Last Name</label>
-                <input {...register('lastName', { required: true,  })} id="lastName" type="text" class="block w-full px-4 py-2 mt-2 text-gray-700 bg-gray-900 border border-gray-300 rounded-md dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-blue-500 dark:focus:border-blue-500 focus:outline-none focus:ring"/>
+                <input {...register('lastName', { required: true,  })} id="lastName" type="text" class="block w-full px-4 py-2 mt-2 text-gray-700  border border-gray-300 rounded-md dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-blue-500 dark:focus:border-blue-500 focus:outline-none focus:ring"/>
                 {errors.lastName && <p className='text-xs text-red-500'>last Name is required.</p>}
             </div>
             <div>
                 <label class=" dark:text-gray-200" for="emailAddress">Email Address</label>
-                <input {...register('emailAddress', { required: true,  })} id="emailAddress" type="email" class="block w-full px-4 py-2 mt-2 text-gray-700 bg-gray-900 border border-gray-300 rounded-md dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-blue-500 dark:focus:border-blue-500 focus:outline-none focus:ring"/>
+                <input {...register('emailAddress', { required: true,  })} id="emailAddress" type="email" class="block w-full px-4 py-2 mt-2 text-gray-700  border border-gray-300 rounded-md dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-blue-500 dark:focus:border-blue-500 focus:outline-none focus:ring"/>
                 {errors.emailAddress && <p className='text-xs text-red-500'>emailAddress is required.</p>}
             </div>
 
             <div>
                 <label class=" dark:text-gray-200" for="phone">phone number</label>
-                <input {...register('phone', { required: true,  })} id="phone" type="phone" class="block w-full px-4 py-2 mt-2 text-gray-700 bg-gray-900 border border-gray-300 rounded-md dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-blue-500 dark:focus:border-blue-500 focus:outline-none focus:ring"/>
+                <input {...register('phone', { required: true,  })} id="phone" type="phone" class="block w-full px-4 py-2 mt-2 text-gray-700  border border-gray-300 rounded-md dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-blue-500 dark:focus:border-blue-500 focus:outline-none focus:ring"/>
                 {errors.phone && <p className='text-xs text-red-500'>phone is required.</p>}
             </div>
             <div>
                 <label class=" dark:text-gray-200" for="cardnumber">card number</label>
-                <input {...register('cardnumber', { required: true,  })} id="cardnumber" type="card" class="block w-full px-4 py-2 mt-2 text-gray-700 bg-gray-900 border border-gray-300 rounded-md dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-blue-500 dark:focus:border-blue-500 focus:outline-none focus:ring"/>
+                <input {...register('cardnumber', { required: true,  })} id="cardnumber" type="card" class="block w-full px-4 py-2 mt-2 text-gray-700  border border-gray-300 rounded-md dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-blue-500 dark:focus:border-blue-500 focus:outline-none focus:ring"/>
                 {errors.cardnumber && <p className='text-xs text-red-500'>card number is required.</p>}
             </div>
             <div>
                 <label class=" dark:text-gray-200" for="date">Expiration date</label>
-                <input {...register('date', { required: true,  })} id="date" type="date" class="block w-full px-4 py-2 mt-2 text-gray-700 bg-gray-900 border border-gray-300 rounded-md dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-blue-500 dark:focus:border-blue-500 focus:outline-none focus:ring"/>
+                <input {...register('date', { required: true,  })} id="date" type="date" class="block w-full px-4 py-2 mt-2 text-gray-700  border border-gray-300 rounded-md dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-blue-500 dark:focus:border-blue-500 focus:outline-none focus:ring"/>
                 {errors.date && <p className='text-xs text-red-500'>date is required.</p>}
             </div>
             <div>
                 <label class=" dark:text-gray-200" for="CVC">CVC</label>
-                <input {...register('CVC', { required: true,  })} id="CVC" type="CVC" class="block w-full px-4 py-2 mt-2 text-gray-700 bg-gray-900 border border-gray-300 rounded-md dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-blue-500 dark:focus:border-blue-500 focus:outline-none focus:ring"/>
+                <input {...register('CVC', { required: true,  })} id="CVC" type="CVC" class="block w-full px-4 py-2 mt-2 text-gray-700  border border-gray-300 rounded-md dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-blue-500 dark:focus:border-blue-500 focus:outline-none focus:ring"/>
                 {errors.CVC && <p className='text-xs text-red-500'>CVC is required.</p>}
             </div>
           
             <div>
                 <label className="text-white-700 dark:text-gray-200" for="location"> Billing Address</label>
-                <input {...register('location', { required: true,  })} id="location" type="text" className="block w-full px-4 py-2 mt-2 text-gray-700 bg-gray-900 border border-gray-300 rounded-md dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-blue-500 dark:focus:border-blue-500 focus:outline-none focus:ring"/>
+                <input {...register('location', { required: true,  })} id="location" type="text" className="block w-full px-4 py-2 mt-2 text-gray-700  border border-gray-300 rounded-md dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-blue-500 dark:focus:border-blue-500 focus:outline-none focus:ring"/>
                 {errors.location && <p className='text-xs text-red-500'>location is required.</p>}
             </div>
            
