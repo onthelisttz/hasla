@@ -118,7 +118,7 @@ alert('succesfull submitted')
 //         </div>
 //     </div>
 // </div>
-<div className="">
+<div className="bg-neutral-900">
   
 <section class="max-w-4xl p-6 mx-auto rounded-md shadow-md dark:bg-gray-800 mt-20">
     <h1 class="text-xl font-serif  capitalize dark:">Checkouts</h1>
