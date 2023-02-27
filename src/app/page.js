@@ -260,7 +260,7 @@ const time = useCountdown(deadline);
             <a href="#faq" className="cursor-pointer hope text-lg  px-2 mr-3 rounded-md">
     <span className=" relative group ">
 <span className="">FAQ's</span>
-{/* git commit -m "27/02/2023 1" */}
+{/* git commit -m "27/02/2023 2" */}
   <span className="absolute -bottom-1 left-0 w-0 h-[0.2em] bg-[#339966] transition-all group-hover:w-[2.7em]"></span>
 </span>
 

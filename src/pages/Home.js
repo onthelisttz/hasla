@@ -19,24 +19,24 @@ export default function ScrollingAnimation  () {
      <div>
       <p className="text-sm font-semibold py-1 px-3 m-2 text-green-600 bg-green-200 rounded-full mb-4">
      juma</p>
-     <Header/>
-     <div className="max-w-6xl mx-auto px-4 py-12 md:py-20 sm:px-6">
+     {/* <Header/> */}
+     {/* <div className="max-w-6xl mx-auto px-4 py-12 md:py-20 sm:px-6">
       <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
             <h2 className="h2 mb-4 font-serif text-4xl">7-8h working per day is not the right path</h2>
             <p className="text-xl text-gray-400">Vitae aliquet nec ullamcorper sit ad jyju in herewre yonue aniouni amet risus nullam eget felis semper quis lectus nulla at volutpat diam ut venenatis tellus—in ornare.</p>
           </div>
-      </div>
-    <motion.div
+      </div> */}
+    {/* <motion.div
           animate={inView ? "visible" : "hidden"}
           variants={variants}
           exit="visible"
           transition={{ 
-            // duration: 2, 
+         
             ease: "easeOut" ,
         
             duration: 2,
             delay: 0.3,
-            // ease: [0.5, 0.71, 1, 1.5],
+         
         }}
           className=""
           ref={ref1}
@@ -67,10 +67,7 @@ export default function ScrollingAnimation  () {
                 <a className="relative block  bg-gray-900 group" 
                     href="##">
                         <Image className= "absolute inset-0 object-cover  w-full h-full group-hover:opacity-50 rounded-lg" src="/hom2.jpg"  alt=" Logo" layout='fill' objectFit='cover' />
-                    {/* <img className="absolute inset-0 object-cover 
-                                w-full h-full group-hover:opacity-50"
-                        src=
-"https://media.geeksforgeeks.org/wp-content/uploads/20220221132017/download.png" /> */}
+       
                     <div className="relative p-5">
                         <div className="mt-40">
                             <div className="transition-all transform 
@@ -91,34 +88,30 @@ export default function ScrollingAnimation  () {
                     </div>
                 </a>
             </div>
-     {/* <div  className=' relative m-2  h-[30em] w-full'>
-   <Image className="rounded-lg" src="/hom2.jpg"  alt=" Logo" layout='fill' objectFit='cover' />
    
-   </div> */}
      </div>
-        </motion.div>
+        </motion.div> */}
 
-     <section id ="servise">
+     {/* <section id ="servise">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="py-12 md:py-20 border-t border-gray-800">
 
-          {/* Section header */}
+        
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
             <div className="inline-flex text-sm font-semibold py-1 px-3 m-2 text-green-600 bg-green-200 rounded-full mb-4">start living your own life</div>
             <h1 className="h1 text-4xl font-serif mb-4 text-white">LIVE UNSCRIPTED FROM TODAY</h1>
             <p className="text-xl text-gray-400">some of the skills your going to learn. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit laborum — semper quis lectus nulla.</p>
           </div>
 
-          {/* Items */}
+        
           <div className="grid gap-20">
 
-            {/* 1st item */}
             <div className="md:grid md:grid-cols-12 md:gap-6 items-center hover:bg-gray-900 p-4 rounded-lg hover:scale-105 transform transtion duration-700">
-              {/* Image */}
+           
               <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 md:order-1" data-aos="fade-up">
                 <img className="max-w-full mx-auto md:max-w-none h-auto rounded-xl" src="/hom2.jpg" width="540" height="405" alt="Features 03" />
               </div>
-              {/* Content */}
+          
               <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6" data-aos="fade-right">
                 <div className="md:pr-4 lg:pr-12 xl:pr-16">
                   <div className="font-architects-daughter text-xl text-[#339966] mb-2">Copyrights</div>
@@ -148,13 +141,13 @@ export default function ScrollingAnimation  () {
               </div>
             </div>
 
-            {/* 2nd item */}
+          
             <div className="md:grid md:grid-cols-12 md:gap-6 items-center hover:bg-gray-900 p-4 rounded-lg hover:scale-105 transform transtion duration-700">
-              {/* Image */}
+            
               <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 rtl" data-aos="fade-up">
                 <img className="max-w-full mx-auto md:max-w-none h-auto rounded-xl" src="/hom2.jpg" width="540" height="405" alt="Features 02" />
               </div>
-              {/* Content */}
+             
               <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6" data-aos="fade-left">
                 <div className="md:pl-4 lg:pl-12 xl:pl-16">
                   <div className="font-architects-daughter text-xl text-[#339966] mb-2">Forex and 
@@ -186,13 +179,13 @@ export default function ScrollingAnimation  () {
               </div>
             </div>
 
-            {/* 3rd item */}
+           
             <div className="md:grid md:grid-cols-12 md:gap-6 items-center hover:bg-gray-900 p-4 rounded-lg hover:scale-105 transform transtion duration-700">
-              {/* Image */}
+            
               <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 md:order-1" data-aos="fade-up">
                 <img className="max-w-full mx-auto md:max-w-none h-auto rounded-xl" src="/hom2.jpg" width="540" height="405" alt="Features 03" />
               </div>
-              {/* Content */}
+             
               <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6" data-aos="fade-right">
                 <div className="md:pr-4 lg:pr-12 xl:pr-16">
                   <div className="font-architects-daughter text-xl text-[#339966] mb-2">Frelancers</div>
@@ -222,11 +215,11 @@ export default function ScrollingAnimation  () {
               </div>
             </div>
             <div className="md:grid md:grid-cols-12 md:gap-6 items-center hover:bg-gray-900 p-4 rounded-lg hover:scale-105 transform transtion duration-700">
-              {/* Image */}
+            
               <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 rtl" data-aos="fade-up">
                 <img className="max-w-full mx-auto md:max-w-none h-auto rounded-xl" src="/hom2.jpg" width="540" height="405" alt="Features 02" />
               </div>
-              {/* Content */}
+             
               <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6" data-aos="fade-left">
                 <div className="md:pl-4 lg:pl-12 xl:pl-16">
                   <div className="font-architects-daughter text-xl text-[#339966] mb-2"> 
@@ -261,9 +254,9 @@ export default function ScrollingAnimation  () {
 
         </div>
       </div>
-    </section>
+    </section> */}
 
-      <div id ="servisee" className='background-color:rgb(255, 255, 255) mt-12'>
+      {/* <div id ="servisee" className='background-color:rgb(255, 255, 255) mt-12'>
 <div className="relative px-4 mx-auto max-w-7xl sm:px-6 lg:px-8" >
   <div className="max-w-lg mx-auto overflow-hidden rounded-lg shadow-lg lg:max-w-none lg:flex">
     <div className="flex-1 px-6 py-8 bg-gray-900 lg:p-12" >
@@ -343,7 +336,7 @@ export default function ScrollingAnimation  () {
     </div>
   </div>
 </div>
-</div>
+</div> */}
      </div>
       
     )
