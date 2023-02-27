@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import '../../src/app/globals.css'
+import Image from 'next/image'
 import {
     motion,
     useViewportScroll,
