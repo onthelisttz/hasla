@@ -207,14 +207,14 @@ const time = useCountdown(deadline);
               md:pt-4"
           >
             <li>
-            {/* <a href="#aboutus" className="cursor-pointer text-lg hope   px-2 mr-3 rounded-md">
+            <a href="#aboutus" className="cursor-pointer text-lg hope   px-2 mr-3 rounded-md">
     <span className=" relative group ">
 <span className="">Our story</span>
 
   <span className="absolute -bottom-1 left-0 w-0 h-[0.2em] bg-[#339966] transition-all group-hover:w-[4em]"></span>
 </span>
 
-    </a> */}
+    </a>
             </li>
             <li>
             <a href="#campus" className="cursor-pointer text-lg hope  px-2 mr-3 rounded-md">
@@ -231,17 +231,17 @@ const time = useCountdown(deadline);
     <span className=" relative group ">
 <span className=""> Students</span>
 
-  <span className="absolute -bottom-1 left-0 w-0 h-[0.2em] bg-[#339966] transition-all group-hover:w-[5.5em]"></span>
+  <span className="absolute -bottom-1 left-0 w-0 h-[0.2em] bg-[#339966] transition-all group-hover:w-[4em]"></span>
 </span>
 
     </a>
             </li>
             <li>
-            <a href="#Pricing" onClick={()=>router.push("/Membership")} className="cursor-pointer hope text-lg  px-2 mr-3 rounded-md">
+            <a href="#Pricing"  className="cursor-pointer hope text-lg  px-2 mr-3 rounded-md">
     <span className=" relative group ">
 <span className="">Pricing</span>
 
-  <span className="absolute -bottom-1 left-0 w-0 h-[0.2em] bg-[#339966] transition-all group-hover:w-[5.4em]"></span>
+  <span className="absolute -bottom-1 left-0 w-0 h-[0.2em] bg-[#339966] transition-all group-hover:w-[3em]"></span>
 </span>
 
     </a>
@@ -260,7 +260,7 @@ const time = useCountdown(deadline);
             <a href="#faq" className="cursor-pointer hope text-lg  px-2 mr-3 rounded-md">
     <span className=" relative group ">
 <span className="">FAQ's</span>
-{/* git commit -m "27/02/2023 2" */}
+{/* git commit -m "27/02/2023 4" */}
   <span className="absolute -bottom-1 left-0 w-0 h-[0.2em] bg-[#339966] transition-all group-hover:w-[2.7em]"></span>
 </span>
 
@@ -843,12 +843,12 @@ So what are you waiting for? Sign up for our online courses today and start your
   <Accordion.Panel  className="border border-sm">
     <Accordion.Title className="hover:bg-gray-800 focus:text-green-500 border border-gray-800 focus:border-lg bg-gray-900 text-white">
       
-   Why should i have to join Hasla?
+    What is Hasla community? 
   
     </Accordion.Title>
     <Accordion.Content>
       <p className="mb-2 text-gray-500 dark:text-gray-400">
-      Vitae aliquet nec ullamcorper sit amet risus nullam eget felis semper quis lectus nulla at volutpat diam ut venenatis tellus—in ornare.
+      Hasla is a members only community with experts helping you make money online. You can access our community from anywhere in the world with internet
       </p>
       <p className="text-gray-500 dark:text-gray-400">
         Check out this guide to learn how to{' '}
@@ -860,26 +860,58 @@ So what are you waiting for? Sign up for our online courses today and start your
   <Accordion.Panel  className="border border-sm">
     <Accordion.Title className="hover:bg-gray-800 focus:text-green-500 border border-gray-800 focus:border-lg bg-gray-900 text-white">
      
-    What is the membership fee?
+    Who are the professors?
     </Accordion.Title>
     <Accordion.Content>
       <p className="mb-2 text-gray-500 dark:text-gray-400">
-      Vitae aliquet nec ullamcorper sit amet risus nullam eget felis semper quis lectus nulla at volutpat diam ut venenatis tellus—in ornare.
+      Expert sovereign individuals hand-picked. Each Professor is making anywhere from 500$ to 10,000$ a month in their select field. They are here to help share their expertise to take you from zero to regular cash. You have direct access to their guidance.
       </p>
      
     </Accordion.Content>
   </Accordion.Panel>
   <Accordion.Panel>
   <Accordion.Title className="hover:bg-gray-800 focus:text-green-500 border border-gray-800 focus:border-lg bg-gray-900 text-white">
-      Can i cancel my membership?
+  What are your fees?
     </Accordion.Title>
     <Accordion.Content>
     <p className="mb-2 text-gray-500 dark:text-gray-400">
-     yes you Vitae aliquet nec ullamcorper sit amet risus nullam eget felis semper quis lectus nulla at volutpat diam ut venenatis tellus—in ornare.
+    We charge a monthly fee of TZS 35,000 after paying One time Entry fee of TZS 65,000/= . Once we reach 1,000 members this will likely rise to TZS 75,000/=. You are locked-in at the rate you join. The earlier you join the more you save. There are already over 100 members so make your move.
       </p>
     
     </Accordion.Content>
   </Accordion.Panel>
+
+
+
+
+
+   <Accordion.Panel>
+  <Accordion.Title className="hover:bg-gray-800 focus:text-green-500 border border-gray-800 focus:border-lg bg-gray-900 text-white">
+  Where are your students from?
+    </Accordion.Title>
+    <Accordion.Content>
+    <p className="mb-2 text-gray-500 dark:text-gray-400">
+    People join Hustler’s community from all around the world. We have students of all ages and experiences. Everyone is encouraged to contribute.
+      </p>
+    
+    </Accordion.Content>
+  </Accordion.Panel>
+
+
+
+  <Accordion.Panel>
+  <Accordion.Title className="hover:bg-gray-800 focus:text-green-500 border border-gray-800 focus:border-lg bg-gray-900 text-white">
+  Is this a good fit for me?
+    </Accordion.Title>
+    <Accordion.Content>
+    <p className="mb-2 text-gray-500 dark:text-gray-400">
+    Hasla community was founded to make it easy for students to get started. If you are motivated and trying to improve your station in life you will meet literally hundreds and hundreds of like-minded students here. The Professors are here to help every step of the way. 
+     
+      </p>
+    
+    </Accordion.Content>
+  </Accordion.Panel>
+
 </Accordion>
 
 </div>
@@ -937,7 +969,7 @@ So what are you waiting for? Sign up for our online courses today and start your
 
 
 {showButton && (
-        <div onClick={scrollToTop} className="sticky bottom-12 z-50  h-10  m-4">
+        <div onClick={scrollToTop} className="sticky bottom-12 z-50  h-10  mt-4">
           <div className="flex   justify-end  bg-transparent ">
 
 <div className="h-16 w-16 animate-bounces rounded-full text-center pl-4 pt-4">
