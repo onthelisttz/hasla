@@ -44,6 +44,7 @@ const useCountdown = (deadline) => {
     seconds: format(time % 60),
   };
 };
+// npm install --legacy-peer-deps
 export default function Home() {
   const [showButton, setShowButton] = useState(false);
   const ref = useRef(null);
